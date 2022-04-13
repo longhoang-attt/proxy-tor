@@ -55,8 +55,8 @@ def change():
 
 ##################################- start
 os.system("clear")
-print("\033[1;40;31m                               [!] please runing tools ussing sudo !!!\n")
-time.sleep(5)
+# print("\033[1;40;31m                               [!] please runing tools ussing sudo !!!\n")
+# time.sleep(5)
 os.system("clear")
 print('''\033[1;32;40m \n
 
