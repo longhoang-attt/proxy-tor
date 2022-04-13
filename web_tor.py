@@ -13,24 +13,22 @@ try:
         pass
 except subprocess.CalledProcessError:
     print('[+] pip3 not installed')
-    subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install python3-pip -y', shell=True)
     print('[!] pip3 installed succesfully')
 try:
 
     import requests
 except Exception:
-    print('[+] python3 requests is not installed')
+    print('[+] pip3 requests is not installed')
     os.system('pip3 install requests')
     os.system('pip3 install requests[socks]')
-    print('[!] python3 requests is installed ')
+    print('[!] pip3requests is installed ')
 try:
 
     check_tor = subprocess.check_output('which tor', shell=True)
 except subprocess.CalledProcessError:
 
     print('[+] tor is not installed !')
-    subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install tor -y',shell=True)
     print('[!] tor is installed succesfully ')
 
@@ -40,7 +38,6 @@ try:
 except subprocess.CalledProcessError:
 
     print('[+] firefox is not installed !')
-    subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install firefox -y',shell=True)
     print('[!] firefox is installed succesfully ')
 
@@ -50,7 +47,6 @@ try:
 except subprocess.CalledProcessError:
 
     print('[+] proxychains is not installed !')
-    subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install proxychains -y',shell=True)
     print('[!] proxychains  is installed succesfully ')
 
