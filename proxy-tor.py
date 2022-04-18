@@ -79,7 +79,6 @@ print("\033[1;32;40m Tools to keep you anonymous on your website and access the 
 time.sleep(3)
 x = input("[+] time to change Ip in Sec >_  ")
 lin = input("[+] how many time do you want to change your ip , for infinte ip change type >_ ")
-os.system("firefox https://check.torproject.org/ https://www.dnsleaktest.com/")
 if int(lin) ==int(0):
 
     while True:
@@ -94,4 +93,4 @@ else:
     for i in range(int(lin)):
             time.sleep(int(x))
             change()
-time.sleep(999999999999999999999999)
+
