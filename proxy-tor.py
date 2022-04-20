@@ -51,12 +51,9 @@ except subprocess.CalledProcessError:
     print('[!] proxychains  is installed succesfully ')
 
 def change():
-    os.system("sudo service tor start && sudo service tor reload")
+    os.system("sudo service tor start >> /dev/null && clear && echo -e "$Cafe \e[35m \e[5m  Check status tor network !!!$Cafe" && proxychains curl icanhazip.com && sudo service tor reload >> /dev/null")
 
 ##################################- start
-os.system("clear")
-# print("\033[1;40;31m                               [!] please runing tools ussing sudo !!!\n")
-# time.sleep(5)
 os.system("clear")
 print('''\033[1;32;40m \n
 
