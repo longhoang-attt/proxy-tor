@@ -1,14 +1,61 @@
-# proxy-tor
-* It's a tool that makes it easier than ever to stay anonymous on your website and access the deepweb. ( support os packaget run apt )
-* Also you can use it with proxychains for extra flexibility
-How to install this tools :
-* [!] please running with sudo permissions
 
-* [1] Runing tools whith pythoon3 , Installation work is simpler than ever when you just run the tool 
+<div align="center">
 
-* [2] The tool will automatically take you to a security check
+```ocaml
+/ USE MANUAL /
+```
+
+```css
+██████  ██████   ██████  ██   ██ ██    ██       ████████  ██████  ██████  
+██   ██ ██   ██ ██    ██  ██ ██   ██  ██           ██    ██    ██ ██   ██ 
+██████  ██████  ██    ██   ███     ████   █████    ██    ██    ██ ██████  
+██      ██   ██ ██    ██  ██ ██     ██             ██    ██    ██ ██   ██ 
+██      ██   ██  ██████  ██   ██    ██             ██     ██████  ██   ██ 
+                                                                          
+                                                                          
+                               [ FROM : longhoang.attt ] v 1.0
+```
+
+</div>
 
 
 
-![Screenshot (70)](https://user-images.githubusercontent.com/95524638/147031927-4b64c063-bf3d-4c3c-a8b5-1557b7732a3f.png)
-![Screenshot (71)](https://user-images.githubusercontent.com/95524638/147031930-b6a18276-6abc-41fc-b709-f9c1feeb9f7e.png)
+## :fallen_leaf: ‎ <samp>INTRODUCE</samp>
+
+<details>
+<summary><b>INTRODUCE</b></summary>
+  
+* This tool helps you to change ip address automatically by using tor as easy as eating porridge
+   
+* You can use them for deepweb or hacking and whatever you want via proxychains
+  
+</details>
+
+
+  ### :blossom: ‎ <samp> INSTALLATION </samp>
+<details>
+<summary><b>Install on Linux</b></summary>
+  
+* Make sure you have python installed on your computer
+  
+* Run the tool with Python the automatic installation will start
+</details>
+<details>
+<summary><b>Install for Windows</b></summary>
+  
+* You must enable the Linux WSL feature to use the tool
+</details>
+
+</details>
+
+## :herb: ‎ <samp>HOW TO USE</samp>
+<details>
+<summary><b>USE</b></summary>
+
+* very simple you just need to run the tool with python3
+* Enter the time you want to change your IP (/s)
+* Enter the number of IPs you need to change
+  </details>
+
+
+
