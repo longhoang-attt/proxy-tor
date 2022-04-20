@@ -32,7 +32,7 @@
 </details>
 
 
-  ### :blossom: ‎ <samp> INSTALLATION </samp>
+  ## :blossom: ‎ <samp> INSTALLATION </samp>
 <details>
 <summary><b>Install on Linux</b></summary>
   
