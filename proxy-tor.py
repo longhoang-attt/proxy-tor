@@ -1,25 +1,11 @@
 #!/usr/bin/python
-
-
 import time
 import os
 import subprocess
 
 
 #####################-check-appps
-try:
-except subprocess.CalledProcessError:
-    print('[+] pip3 not installed')
-    subprocess.check_output('sudo apt install python3-pip -y', shell=True)
-    print('[!] pip3 installed succesfully')
-try:
 
-    import requests
-except Exception:
-    print('[+] pip3 requests is not installed')
-    os.system('pip3 install requests')
-    os.system('pip3 install requests[socks]')
-    print('[!] pip3requests is installed ')
 try:
 
     check_tor = subprocess.check_output('which tor', shell=True)
@@ -58,7 +44,7 @@ print('''\033[1;32;40m \n
 print("\033[1;40;31m contact : longhoang.attt@gmail.com \n
 ")
 print("\033[1;32;40m Tools to keep you anonymous on your website and access the deepweb more easily than ever before \n")
-time.sleep(3)
+time.sleep(1)
 x = input("[+] time to change Ip in Sec >_  ")
 lin = input("[+] how many time do you want to change your ip , for infinte ip change type >_ ")
 if int(lin) ==int(0):
