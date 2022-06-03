@@ -41,8 +41,7 @@ print('''\033[1;32;40m \n
                                [ FROM : longhoang.attt ] v 1.0
 
 ''')
-print("\033[1;40;31m contact : longhoang.attt@gmail.com \n
-")
+print("\033[1;40;31m contact : longhoang.attt@gmail.com \n ")
 print("\033[1;32;40m Tools to keep you anonymous on your website and access the deepweb more easily than ever before \n")
 time.sleep(1)
 x = input("[+] time to change Ip in Sec >_  ")
