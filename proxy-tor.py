@@ -24,10 +24,10 @@ except subprocess.CalledProcessError:
     print('[!] proxychains  is installed succesfully ')
 
 def change():
-os.system(" sudo service tor start  && sudo service tor reload ")
+    os.system(" sudo service tor start  && sudo service tor reload ")
 
 ##################################- start
-os.system("clear")
+    os.system("clear")
 print('''\033[1;32;40m \n
 
 
